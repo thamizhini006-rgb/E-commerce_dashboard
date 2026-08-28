@@ -1,0 +1,501 @@
+Order_ID,Customer_ID,Order_Date,Customer_Age,Gender,City,Product_Category,Quantity,Unit_Price,Payment_Method,Order_Status,Total_Amount
+O0001,C0103,2026-01-01,56.0,Male,Madurai,Electronics,2,3181,Net Banking,Completed,6362
+O0002,C0180,2026-01-02,22.0,Male,Erode,Furniture,2,1528,UPI,Returned,3056
+O0003,C0093,2026-01-03,39.0,Male,Chennai,Furniture,1,4067,Net Banking,Completed,4067
+O0004,C0015,2026-01-04,46.0,Male,Coimbatore,Electronics,3,6545,UPI,Returned,19635
+O0005,C0107,2026-01-05,20.0,Male,Madurai,Furniture,5,9214,UPI,Completed,46070
+O0006,C0072,2026-01-06,29.0,Male,Chennai,Furniture,2,2259,Card,Completed,4518
+O0007,C0189,2026-01-07,43.0,Female,Erode,Clothing,2,5232,Cash,Completed,10464
+O0008,C0021,2026-01-08,33.0,Male,Chennai,Grocery,4,2647,Net Banking,Cancelled,10588
+O0009,C0103,2026-01-09,54.0,Female,Coimbatore,Furniture,5,3079,Card,Completed,15395
+O0010,C0122,2026-01-10,39.0,Female,Salem,Clothing,5,2749,UPI,Completed,13745
+O0011,C0075,2026-01-11,41.0,Male,Chennai,Grocery,2,8605,Net Banking,Completed,17210
+O0012,C0088,2026-01-12,31.0,Female,Chennai,Electronics,1,3183,UPI,Returned,3183
+O0013,C0117,2026-01-13,45.0,Female,Erode,Clothing,4,1137,Cash,Completed,4548
+O0014,C0100,2026-01-14,22.0,Female,Erode,Clothing,5,3589,Card,Returned,17945
+O0015,C0104,2026-01-15,64.0,Female,Madurai,Grocery,2,7704,Cash,Completed,15408
+O0016,C0152,2026-01-16,47.0,Male,Erode,Electronics,5,7644,Card,Completed,38220
+O0017,C0131,2026-01-17,63.0,Female,Trichy,Clothing,4,2734,UPI,Cancelled,10936
+O0018,C0150,2026-01-18,22.0,Male,Coimbatore,Furniture,4,4083,Cash,Returned,16332
+O0019,C0053,2026-01-19,29.0,Female,Coimbatore,Furniture,3,1878,Cash,Completed,5634
+O0020,C0002,2026-01-20,33.0,Female,Salem,Furniture,2,8002,UPI,Returned,16004
+O0021,C0088,2026-01-21,43.0,Male,Salem,Electronics,4,5210,Cash,Returned,20840
+O0022,C0158,2026-01-22,43.0,Female,Coimbatore,Clothing,3,5289,Net Banking,Cancelled,15867
+O0023,C0038,2026-01-23,38.0,Female,Salem,Furniture,3,7478,Card,Cancelled,22434
+O0024,C0130,2026-01-24,56.0,Female,Madurai,Electronics,5,1224,Card,Cancelled,6120
+O0025,C0192,2026-01-25,53.0,Male,Erode,Furniture,5,797,Card,Cancelled,3985
+O0026,C0188,2026-01-26,50.0,Female,Salem,Grocery,3,2279,Net Banking,Cancelled,6837
+O0027,C0021,2026-01-27,47.0,Male,Salem,Clothing,5,9696,Card,Cancelled,48480
+O0028,C0161,2026-01-28,54.0,Female,Coimbatore,Clothing,4,5351,UPI,Cancelled,21404
+O0029,C0058,2026-01-29,40.0,Male,Trichy,Electronics,1,9335,Cash,Cancelled,9335
+O0030,C0022,2026-01-30,27.0,Male,Chennai,Electronics,4,2029,Net Banking,Completed,8116
+O0031,C0089,2026-01-31,22.0,Female,Erode,Clothing,3,1113,Card,Returned,3339
+O0032,C0049,2026-02-01,53.0,Female,Coimbatore,Furniture,3,326,UPI,Cancelled,978
+O0033,C0059,2026-02-02,51.0,Male,Chennai,Furniture,4,7421,Cash,Cancelled,29684
+O0034,C0170,2026-02-03,48.0,Male,Salem,Grocery,5,1928,Cash,Returned,9640
+O0035,C0188,2026-02-04,27.0,Female,Chennai,Furniture,5,8009,Net Banking,Completed,40045
+O0036,C0015,2026-02-05,36.0,Male,Erode,Electronics,3,5688,Net Banking,Returned,17064
+O0037,C0190,2026-02-06,49.0,Female,Coimbatore,Electronics,2,2123,Net Banking,Returned,4246
+O0038,C0190,2026-02-07,18.0,Female,Trichy,Furniture,5,5066,UPI,Cancelled,25330
+O0039,C0175,2026-02-08,22.0,Female,Salem,Electronics,4,5991,UPI,Returned,23964
+O0040,C0190,2026-02-09,62.0,Female,Coimbatore,Clothing,5,1180,Net Banking,Returned,5900
+O0041,C0051,2026-02-10,21.0,Male,Erode,Clothing,4,5136,Cash,Cancelled,20544
+O0042,C0108,2026-02-11,33.0,Female,Salem,Furniture,3,2663,Cash,Cancelled,7989
+O0043,C0055,2026-02-12,41.0,Male,Madurai,Clothing,5,3392,Cash,Cancelled,16960
+O0044,C0064,2026-02-13,33.0,Female,Chennai,Clothing,4,3686,UPI,Cancelled,14744
+O0045,C0131,2026-02-14,19.0,Male,Erode,Grocery,3,4531,Cash,Returned,13593
+O0046,C0051,2026-02-15,45.0,Female,Madurai,Grocery,2,6941,Card,Returned,13882
+O0047,C0135,2026-02-16,49.0,Male,Coimbatore,Clothing,4,6743,Cash,Completed,26972
+O0048,C0021,2026-02-17,44.0,Male,Trichy,Furniture,2,4059,UPI,Completed,8118
+O0049,C0073,2026-02-18,37.0,Female,Salem,Grocery,2,261,UPI,Returned,522
+O0050,C0167,2026-02-19,41.0,Female,Chennai,Electronics,1,693,Card,Completed,693
+O0051,C0018,2026-02-20,29.0,Female,Salem,Electronics,5,3490,Card,Returned,17450
+O0052,C0132,2026-02-21,52.0,Female,Coimbatore,Electronics,4,6097,Cash,Completed,24388
+O0053,C0089,2026-02-22,50.0,Male,Salem,Furniture,2,6454,Cash,Cancelled,12908
+O0054,C0060,2026-02-23,50.0,Female,Chennai,Clothing,1,763,UPI,Completed,763
+O0055,C0014,2026-02-24,60.0,Male,Coimbatore,Electronics,3,9424,Card,Cancelled,28272
+O0056,C0009,2026-02-25,54.0,Male,Salem,Clothing,4,641,Card,Cancelled,2564
+O0057,C0090,2026-02-26,29.0,Female,Trichy,Grocery,2,5533,Card,Cancelled,11066
+O0058,C0053,2026-02-27,20.0,Male,Erode,Clothing,5,5193,Cash,Cancelled,25965
+O0059,C0130,2026-02-28,18.0,Male,Coimbatore,Grocery,1,967,Card,Completed,967
+O0060,C0084,2026-03-01,50.0,Male,Erode,Furniture,2,8723,UPI,Returned,17446
+O0061,C0092,2026-03-02,57.0,Male,Coimbatore,Electronics,5,5569,UPI,Cancelled,27845
+O0062,C0111,2026-03-03,27.0,Female,Trichy,Electronics,2,6356,Cash,Completed,12712
+O0063,C0188,2026-03-04,60.0,Female,Erode,Furniture,4,9498,Net Banking,Cancelled,37992
+O0064,C0199,2026-03-05,61.0,Female,Madurai,Electronics,4,1269,Cash,Completed,5076
+O0065,C0172,2026-03-06,46.0,Female,Chennai,Clothing,4,930,Net Banking,Completed,3720
+O0066,C0008,2026-03-07,30.0,Male,Madurai,Furniture,1,1751,Card,Completed,1751
+O0067,C0175,2026-03-08,29.0,Male,Salem,Grocery,4,1236,Cash,Returned,4944
+O0068,C0035,2026-03-09,48.0,Female,Trichy,Furniture,5,2910,UPI,Completed,14550
+O0069,C0081,2026-03-10,63.0,Female,Madurai,Clothing,2,8767,Card,Completed,17534
+O0070,C0164,2026-03-11,19.0,Female,Coimbatore,Clothing,3,9618,UPI,Returned,28854
+O0071,C0050,2026-03-12,41.0,Male,Salem,Furniture,5,1119,Card,Returned,5595
+O0072,C0104,2026-03-13,40.0,Female,Salem,Furniture,5,5337,Cash,Completed,26685
+O0073,C0132,2026-03-14,34.0,Female,Madurai,Electronics,4,1383,Net Banking,Returned,5532
+O0074,C0002,2026-03-15,43.0,Female,Madurai,Clothing,1,759,Card,Cancelled,759
+O0075,C0134,2026-03-16,25.0,Male,Trichy,Furniture,2,2110,Net Banking,Cancelled,4220
+O0076,C0054,2026-03-17,46.0,Male,Chennai,Furniture,1,8690,Card,Returned,8690
+O0077,C0106,2026-03-18,43.0,Male,Madurai,Clothing,2,1833,UPI,Returned,3666
+O0078,C0004,2026-03-19,27.0,Male,Madurai,Furniture,2,2225,UPI,Completed,4450
+O0079,C0054,2026-03-20,43.0,Male,Erode,Electronics,1,2271,Card,Returned,2271
+O0080,C0191,2026-03-21,51.0,Male,Coimbatore,Clothing,5,8366,Net Banking,Completed,41830
+O0081,C0146,2026-03-22,41.0,Male,Erode,Electronics,2,3571,Cash,Cancelled,7142
+O0082,C0044,2026-03-23,24.0,Male,Erode,Electronics,1,9128,Cash,Returned,9128
+O0083,C0162,2026-03-24,21.0,Female,Salem,Electronics,2,5724,UPI,Completed,11448
+O0084,C0190,2026-03-25,62.0,Female,Chennai,Electronics,3,8791,Cash,Completed,26373
+O0085,C0014,2026-03-26,28.0,Male,Coimbatore,Clothing,5,8429,UPI,Cancelled,42145
+O0086,C0095,2026-03-27,46.0,Male,Trichy,Electronics,4,2197,Cash,Returned,8788
+O0087,C0048,2026-03-28,53.0,Female,Trichy,Electronics,2,5168,Card,Cancelled,10336
+O0088,C0015,2026-03-29,42.0,Male,Madurai,Furniture,3,6497,UPI,Completed,19491
+O0089,C0200,2026-03-30,38.0,Male,Madurai,Clothing,4,2857,UPI,Completed,11428
+O0090,C0190,2026-03-31,53.0,Male,Trichy,Clothing,4,4020,Card,Returned,16080
+O0091,C0040,2026-04-01,27.0,Female,Madurai,Grocery,3,8286,UPI,Completed,24858
+O0092,C0082,2026-04-02,54.0,Female,Chennai,Clothing,1,2000,Cash,Returned,2000
+O0093,C0111,2026-04-03,26.0,Female,Erode,Clothing,2,2710,Cash,Cancelled,5420
+O0094,C0053,2026-04-04,41.0,Female,Madurai,Grocery,3,7000,UPI,Returned,21000
+O0095,C0024,2026-04-05,52.0,Female,Salem,Clothing,4,1549,Cash,Returned,6196
+O0096,C0154,2026-04-06,52.0,Male,Madurai,Clothing,2,8838,Net Banking,Completed,17676
+O0097,C0188,2026-04-07,53.0,Female,Coimbatore,Clothing,1,5117,UPI,Completed,5117
+O0098,C0124,2026-04-08,35.0,Male,Chennai,Clothing,2,8099,Card,Returned,16198
+O0099,C0041,2026-04-09,56.0,Male,Coimbatore,Grocery,5,6152,Net Banking,Completed,30760
+O0100,C0157,2026-04-10,49.0,Female,Coimbatore,Clothing,1,2196,UPI,Completed,2196
+O0101,C0015,2026-04-11,41.0,Female,Salem,Clothing,3,8995,Card,Completed,26985
+O0102,C0045,2026-04-12,40.0,Male,Chennai,Grocery,4,6504,Cash,Returned,26016
+O0103,C0065,2026-04-13,49.0,Male,Chennai,Furniture,2,9917,Card,Completed,19834
+O0104,C0089,2026-04-14,54.0,Male,Chennai,Electronics,1,3431,Net Banking,Returned,3431
+O0105,C0071,2026-04-15,29.0,Female,Chennai,Furniture,5,7562,Cash,Completed,37810
+O0106,C0009,2026-04-16,30.0,Female,Chennai,Grocery,1,5205,UPI,Cancelled,5205
+O0107,C0088,2026-04-17,40.0,Female,Salem,Electronics,5,3078,Cash,Completed,15390
+O0108,C0129,2026-04-18,42.0,Female,Madurai,Grocery,3,2939,UPI,Completed,8817
+O0109,C0136,2026-04-19,52.0,Female,Coimbatore,Grocery,4,3484,UPI,Returned,13936
+O0110,C0063,2026-04-20,58.0,Male,Chennai,Clothing,3,785,Card,Returned,2355
+O0111,C0139,2026-04-21,47.0,Female,Madurai,Electronics,2,5076,Card,Completed,10152
+O0112,C0081,2026-04-22,34.0,Male,Madurai,Clothing,1,4383,Card,Cancelled,4383
+O0113,C0136,2026-04-23,37.0,Male,Coimbatore,Electronics,5,7836,Net Banking,Completed,39180
+O0114,C0163,2026-04-24,42.0,Male,Salem,Grocery,5,7810,Net Banking,Completed,39050
+O0115,C0163,2026-04-25,39.0,Female,Trichy,Grocery,1,1719,Card,Cancelled,1719
+O0116,C0033,2026-04-26,30.0,Female,Trichy,Furniture,1,6968,Net Banking,Returned,6968
+O0117,C0123,2026-04-27,36.0,Female,Madurai,Electronics,2,1531,Cash,Completed,3062
+O0118,C0005,2026-04-28,53.0,Male,Erode,Clothing,3,9167,Cash,Returned,27501
+O0119,C0041,2026-04-29,29.0,Male,Erode,Furniture,5,4813,Net Banking,Returned,24065
+O0120,C0028,2026-04-30,58.0,Male,Coimbatore,Furniture,2,9657,Net Banking,Cancelled,19314
+O0121,C0135,2026-05-01,36.0,male,Trichy,Furniture,3,9535,Cash,Cancelled,28605
+O0122,C0072,2026-05-02,29.0,MALE,Madurai,Clothing,2,5098,UPI,Returned,10196
+O0123,C0012,2026-05-03,26.0,M,Salem,Furniture,5,262,Cash,Completed,1310
+O0124,C0162,2026-05-04,24.0,Female,Trichy,Clothing,1,2074,Cash,Returned,2074
+O0125,C0033,2026-05-05,45.0,Female,Madurai,Furniture,1,3391,Net Banking,Completed,3391
+O0126,C0048,2026-05-06,31.0,Female,Madurai,Clothing,3,8561,Cash,Completed,25683
+O0127,C0151,2026-05-07,48.0,Female,Chennai,Grocery,4,731,Net Banking,Cancelled,2924
+O0128,C0062,2026-05-08,36.0,Male,Salem,Grocery,3,1005,Net Banking,Completed,3015
+O0129,C0037,2026-05-09,64.0,Male,Chennai,Grocery,4,2114,Card,Completed,8456
+O0130,C0099,2026-05-10,33.0,Female,Coimbatore,Grocery,2,9933,Cash,Returned,19866
+O0131,C0172,2026-05-11,22.0,Male,Chennai,electronics,2,7996,UPI,Cancelled,15992
+O0132,C0104,2026-05-12,52.0,Female,Chennai,ELECTRONICS,5,304,Card,Completed,1520
+O0133,C0035,2026-05-13,29.0,Female,Trichy,Furniture,4,681,Net Banking,Completed,2724
+O0134,C0193,2026-05-14,42.0,Female,Erode,Furniture,5,5775,Net Banking,Cancelled,28875
+O0135,C0101,2026-05-15,38.0,Male,Madurai,Clothing,1,9132,UPI,Returned,9132
+O0136,C0175,2026-05-16,53.0,Female,Salem,Clothing,4,5447,Net Banking,Cancelled,21788
+O0137,C0131,2026-05-17,40.0,Female,Chennai,Clothing,3,2743,Cash,Cancelled,8229
+O0138,C0001,2026-05-18,33.0,Female,Salem,Clothing,1,8117,Card,Completed,8117
+O0139,C0005,2026-05-19,56.0,Male,Erode,Grocery,1,2397,Net Banking,Completed,2397
+O0140,C0142,2026-05-20,62.0,Male,Erode,Grocery,3,974,Net Banking,Returned,2922
+O0141,C0103,2026-05-21,59.0,Female,Chennai,Grocery,1,5660,UPI,Completed,5660
+O0142,C0027,2026-05-22,56.0,Male,Coimbatore,Electronics,4,789,Cash,Completed,3156
+O0143,C0137,2026-05-23,31.0,Male,Chennai,Furniture,5,4100,Net Banking,Cancelled,20500
+O0144,C0015,2026-05-24,48.0,Male,Trichy,Clothing,1,9714,UPI,Completed,9714
+O0145,C0090,2026-05-25,22.0,Male,Madurai,Clothing,4,771,Net Banking,Returned,3084
+O0146,C0042,2026-05-26,52.0,Male,Coimbatore,Grocery,2,8027,UPI,Cancelled,16054
+O0147,C0124,2026-05-27,40.0,Male,Chennai,Clothing,4,1271,UPI,Returned,5084
+O0148,C0179,2026-05-28,46.0,Male,Salem,Clothing,5,5691,Cash,Cancelled,28455
+O0149,C0063,2026-05-29,60.0,Male,Coimbatore,Furniture,4,9235,Net Banking,Completed,36940
+O0150,C0096,2026-05-30,28.0,Male,Coimbatore,Grocery,3,6442,Cash,Cancelled,19326
+O0151,C0052,2026-05-31,35.0,Male,Chennai,Furniture,5,1549,UPI,Cancelled,7745
+O0152,C0096,2026-06-01,64.0,Female,Coimbatore,Electronics,2,2639,Card,Completed,5278
+O0153,C0132,2026-06-02,29.0,Female,Salem,Electronics,3,4059,Net Banking,Completed,12177
+O0154,C0151,2026-06-03,26.0,Male,Erode,Electronics,4,6385,Card,Returned,25540
+O0155,C0143,2026-06-04,27.0,Female,Coimbatore,Grocery,5,5532,Net Banking,Returned,27660
+O0156,C0171,2026-06-05,61.0,Female,Erode,Clothing,2,4360,Cash,Completed,8720
+O0157,C0029,2026-06-06,34.0,Male,Salem,Grocery,3,2461,Cash,Completed,7383
+O0158,C0036,2026-06-07,55.0,Male,Chennai,Grocery,2,6264,Cash,Completed,12528
+O0159,C0013,2026-06-08,24.0,Male,Madurai,Clothing,4,3770,Cash,Cancelled,15080
+O0160,C0160,2026-06-09,63.0,Female,Coimbatore,Furniture,2,1853,Cash,Cancelled,3706
+O0161,C0071,2026-06-10,30.0,Female,Madurai,Electronics,1,8200,Card,Cancelled,8200
+O0162,C0187,2026-06-11,57.0,Male,Salem,Furniture,3,2038,Cash,Completed,6114
+O0163,C0086,2026-06-12,59.0,Male,Coimbatore,Electronics,2,8662,UPI,Returned,17324
+O0164,C0028,2026-06-13,26.0,Male,Erode,Grocery,4,6076,UPI,Completed,24304
+O0165,C0066,2026-06-14,44.0,Female,Trichy,Electronics,4,6688,Card,Cancelled,26752
+O0166,C0170,2026-06-15,19.0,Female,Madurai,Grocery,2,8716,Net Banking,Cancelled,17432
+O0167,C0045,2026-06-16,22.0,Female,Coimbatore,Furniture,4,6404,UPI,Completed,25616
+O0168,C0062,2026-06-17,46.0,Female,Madurai,Grocery,5,7445,Net Banking,Completed,37225
+O0169,C0185,2026-06-18,54.0,Male,Coimbatore,Furniture,5,7975,Card,Cancelled,39875
+O0170,C0134,2026-06-19,55.0,Male,Chennai,Clothing,5,9186,Net Banking,Cancelled,45930
+O0171,C0028,2026-06-20,36.0,Male,Erode,Clothing,1,6733,Net Banking,Cancelled,6733
+O0172,C0028,2026-06-21,25.0,Male,Madurai,Clothing,2,697,Net Banking,Completed,1394
+O0173,C0108,2026-06-22,62.0,Female,Trichy,Grocery,1,3162,Net Banking,Cancelled,3162
+O0174,C0044,2026-06-23,18.0,Female,Trichy,Clothing,4,2436,Card,Cancelled,9744
+O0175,C0084,2026-06-24,39.0,Male,Salem,Electronics,1,9979,UPI,Returned,9979
+O0176,C0030,2026-06-25,34.0,Male,Coimbatore,Furniture,4,672,Cash,Completed,2688
+O0177,C0190,2026-06-26,24.0,Female,Madurai,Furniture,4,7621,Net Banking,Returned,30484
+O0178,C0075,2026-06-27,42.0,Male,Salem,Electronics,3,6271,UPI,Returned,18813
+O0179,C0128,2026-06-28,62.0,Female,Madurai,Grocery,5,7197,UPI,Cancelled,35985
+O0180,C0092,2026-06-29,21.0,Male,Coimbatore,Grocery,4,2190,Card,Completed,8760
+O0181,C0190,2026-06-30,53.0,Male,Trichy,Furniture,3,6666,UPI,Cancelled,19998
+O0182,C0129,2026-07-01,23.0,Male,Chennai,Clothing,5,4724,Card,Completed,23620
+O0183,C0121,2026-07-02,48.0,Male,Trichy,Grocery,4,1733,Net Banking,Returned,6932
+O0184,C0027,2026-07-03,36.0,Male,Salem,Grocery,4,1617,Net Banking,Completed,6468
+O0185,C0190,2026-07-04,61.0,Male,Erode,Electronics,1,3748,Cash,Cancelled,3748
+O0186,C0121,2026-07-05,56.0,Male,Chennai,Electronics,1,1637,Cash,Cancelled,1637
+O0187,C0116,2026-07-06,44.0,Female,Salem,Clothing,5,3237,Cash,Cancelled,16185
+O0188,C0003,2026-07-07,27.0,Female,Coimbatore,Grocery,4,7085,UPI,Completed,28340
+O0189,C0103,2026-07-08,43.0,Female,Chennai,Grocery,2,197,Net Banking,Returned,394
+O0190,C0198,2026-07-09,36.0,Female,Salem,Electronics,1,3850,Card,Returned,3850
+O0191,C0200,2026-07-10,56.0,Female,Coimbatore,Grocery,5,8635,Cash,Completed,43175
+O0192,C0155,2026-07-11,20.0,Male,Trichy,Furniture,4,8274,Card,Cancelled,33096
+O0193,C0137,2026-07-12,62.0,Male,Erode,Electronics,4,8203,Card,Returned,32812
+O0194,C0062,2026-07-13,30.0,Female,Coimbatore,Clothing,2,5513,Cash,Cancelled,11026
+O0195,C0165,2026-07-14,45.0,Male,Madurai,Electronics,5,4766,Net Banking,Completed,23830
+O0196,C0051,2026-07-15,37.0,Female,Coimbatore,Grocery,4,710,Cash,Cancelled,2840
+O0197,C0172,2026-07-16,45.0,Female,Coimbatore,Clothing,1,1827,Card,Returned,1827
+O0198,C0152,2026-07-17,25.0,Male,Erode,Electronics,2,1954,Cash,Returned,3908
+O0199,C0059,2026-07-18,58.0,Male,Madurai,Furniture,5,5155,Card,Cancelled,25775
+O0200,C0118,2026-07-19,56.0,Male,Salem,Furniture,2,2424,Card,Completed,4848
+O0201,C0160,2026-07-20,18.0,Female,Salem,Electronics,1,9469,Cash,Cancelled,9469
+O0202,C0096,2026-07-21,20.0,Male,Coimbatore,Furniture,5,9383,UPI,Completed,46915
+O0203,C0180,2026-07-22,30.0,Female,Madurai,Furniture,2,5874,Cash,Cancelled,11748
+O0204,C0113,2026-07-23,45.0,Female,Madurai,Furniture,3,6619,UPI,Returned,19857
+O0205,C0062,2026-07-24,42.0,Female,Erode,Clothing,1,1849,Card,Completed,1849
+O0206,C0186,2026-07-25,50.0,Male,Trichy,Furniture,1,881,Card,Completed,881
+O0207,C0052,2026-07-26,55.0,Male,Salem,Furniture,1,7648,UPI,Completed,7648
+O0208,C0012,2026-07-27,23.0,Female,Erode,Furniture,3,6923,Card,Returned,20769
+O0209,C0039,2026-07-28,61.0,Male,Chennai,Clothing,3,2205,UPI,Cancelled,6615
+O0210,C0130,2026-07-29,62.0,Male,Salem,Electronics,4,3967,UPI,Returned,15868
+O0211,C0131,2026-07-30,49.0,Male,Erode,Grocery,2,7293,Card,Completed,14586
+O0212,C0113,2026-07-31,62.0,Female,Salem,Furniture,4,5076,Net Banking,Cancelled,20304
+O0213,C0101,2026-08-01,64.0,Female,Trichy,Electronics,2,2213,UPI,Returned,4426
+O0214,C0113,2026-08-02,38.0,Male,Chennai,Furniture,3,5979,Cash,Completed,17937
+O0215,C0184,2026-08-03,33.0,Female,Trichy,Clothing,3,4070,Cash,Completed,12210
+O0216,C0081,2026-08-04,38.0,Male,Chennai,Electronics,4,9359,Card,Returned,37436
+O0217,C0187,2026-08-05,28.0,Male,Coimbatore,Clothing,5,7364,Net Banking,Returned,36820
+O0218,C0113,2026-08-06,54.0,Male,Erode,Furniture,4,1677,Card,Returned,6708
+O0219,C0002,2026-08-07,53.0,Male,Chennai,Furniture,2,9303,Net Banking,Completed,18606
+O0220,C0130,2026-08-08,52.0,Female,Trichy,Clothing,4,2374,UPI,Returned,9496
+O0221,C0054,2026-08-09,36.0,Female,Salem,Grocery,1,4969,UPI,Completed,4969
+O0222,C0087,2026-08-10,37.0,Female,Chennai,Clothing,2,6844,UPI,Returned,13688
+O0223,C0129,2026-08-11,35.0,Male,Erode,Furniture,2,2526,UPI,Completed,5052
+O0224,C0147,2026-08-12,64.0,Male,Chennai,Clothing,5,5646,Cash,Completed,28230
+O0225,C0126,2026-08-13,58.0,Male,Madurai,Grocery,3,6952,Cash,Cancelled,20856
+O0226,C0130,2026-08-14,31.0,Female,Salem,Clothing,2,2651,Card,Returned,5302
+O0227,C0053,2026-08-15,32.0,Male,Erode,Grocery,3,6511,Net Banking,Returned,19533
+O0228,C0172,2026-08-16,48.0,Female,Erode,Grocery,4,107,UPI,Completed,428
+O0229,C0160,2026-08-17,18.0,Female,Coimbatore,Clothing,1,8187,UPI,Completed,8187
+O0230,C0198,2026-08-18,20.0,Female,Trichy,Clothing,5,2655,Net Banking,Completed,13275
+O0231,C0160,2026-08-19,33.0,Female,Coimbatore,Electronics,3,575,Net Banking,Cancelled,1725
+O0232,C0068,2026-08-20,40.0,Female,Erode,Furniture,2,5516,Card,Cancelled,11032
+O0233,C0183,2026-08-21,28.0,Female,Salem,Grocery,3,8776,Net Banking,Completed,26328
+O0234,C0184,2026-08-22,29.0,Male,Chennai,Electronics,2,7339,UPI,Returned,14678
+O0235,C0123,2026-08-23,27.0,Male,Chennai,Clothing,3,6810,UPI,Returned,20430
+O0236,C0145,2026-08-24,49.0,Female,Salem,Furniture,2,5100,UPI,Cancelled,10200
+O0237,C0038,2026-08-25,33.0,Female,Erode,Electronics,4,4754,UPI,Cancelled,19016
+O0238,C0024,2026-08-26,25.0,Male,Chennai,Grocery,2,8178,UPI,Completed,16356
+O0239,C0069,2026-08-27,55.0,Female,Chennai,Electronics,2,6163,Card,Returned,12326
+O0240,C0116,2026-08-28,29.0,Female,Chennai,Grocery,1,2385,UPI,Completed,2385
+O0241,C0098,2026-08-29,41.0,Male,Trichy,Clothing,2,5323,Card,Cancelled,10646
+O0242,C0198,2026-08-30,45.0,Female,Trichy,Furniture,1,7071,UPI,Returned,7071
+O0243,C0139,2026-08-31,25.0,Female,Madurai,Furniture,5,3625,Cash,Returned,18125
+O0244,C0144,2026-09-01,45.0,Female,Coimbatore,Furniture,1,2922,Cash,Cancelled,2922
+O0245,C0097,2026-09-02,53.0,Male,Salem,Clothing,4,5043,Cash,Completed,20172
+O0246,C0124,2026-09-03,43.0,Male,Salem,Grocery,1,6630,Cash,Completed,6630
+O0247,C0187,2026-09-04,25.0,Male,Salem,Clothing,5,358,Card,Returned,1790
+O0248,C0070,2026-09-05,45.0,Female,Madurai,Furniture,4,382,Card,Cancelled,1528
+O0249,C0093,2026-09-06,45.0,Female,Trichy,Clothing,3,1998,Net Banking,Returned,5994
+O0250,C0003,2026-09-07,54.0,Male,Erode,Clothing,3,4235,UPI,Cancelled,12705
+O0251,C0148,2026-09-08,58.0,Female,Erode,Clothing,1,6729,Cash,Completed,6729
+O0252,C0187,2026-09-09,53.0,Female,Madurai,Grocery,1,3300,Card,Cancelled,3300
+O0253,C0164,2026-09-10,44.0,Female,Erode,Electronics,5,5210,UPI,Completed,26050
+O0254,C0147,2026-09-11,34.0,Female,Salem,Electronics,5,7267,UPI,Cancelled,36335
+O0255,C0090,2026-09-12,26.0,Female,Coimbatore,Clothing,2,712,Card,Returned,1424
+O0256,C0195,2026-09-13,50.0,Male,Chennai,Electronics,5,787,Cash,Completed,3935
+O0257,C0147,2026-09-14,37.0,Female,Trichy,Electronics,2,3790,Net Banking,Returned,7580
+O0258,C0148,2026-09-15,30.0,Male,Trichy,Clothing,4,8904,UPI,Returned,35616
+O0259,C0096,2026-09-16,45.0,Female,Madurai,Clothing,1,2407,Net Banking,Completed,2407
+O0260,C0199,2026-09-17,46.0,Male,Trichy,Furniture,4,7233,Cash,Completed,28932
+O0261,C0052,2026-09-18,30.0,Female,Salem,Electronics,5,6609,Cash,Returned,33045
+O0262,C0161,2026-09-19,63.0,Male,Erode,Grocery,4,6006,Net Banking,Returned,24024
+O0263,C0168,2026-09-20,52.0,Female,Salem,Clothing,4,2691,Cash,Returned,10764
+O0264,C0128,2026-09-21,23.0,Male,Madurai,Furniture,4,7283,UPI,Returned,29132
+O0265,C0039,2026-09-22,35.0,Female,Salem,Grocery,5,5348,Net Banking,Completed,26740
+O0266,C0082,2026-09-23,22.0,Male,Erode,Electronics,4,8866,Cash,Completed,35464
+O0267,C0104,2026-09-24,64.0,Female,Coimbatore,Furniture,2,5208,Net Banking,Returned,10416
+O0268,C0129,2026-09-25,42.0,Male,Madurai,Clothing,5,3704,UPI,Cancelled,18520
+O0269,C0011,2026-09-26,19.0,Male,Coimbatore,Grocery,4,769,Cash,Cancelled,3076
+O0270,C0185,2026-09-27,27.0,Female,Chennai,Clothing,5,4464,UPI,Completed,22320
+O0271,C0178,2026-09-28,47.0,Female,Coimbatore,Electronics,3,7429,Cash,Returned,22287
+O0272,C0151,2026-09-29,62.0,Male,Chennai,Grocery,2,1383,Card,Returned,2766
+O0273,C0159,2026-09-30,22.0,Female,Chennai,Electronics,4,1023,Cash,Completed,4092
+O0274,C0042,2026-10-01,50.0,Male,Coimbatore,Electronics,3,1225,Net Banking,Cancelled,3675
+O0275,C0099,2026-10-02,18.0,Male,Madurai,Furniture,3,1629,Cash,Cancelled,4887
+O0276,C0007,2026-10-03,35.0,Male,Erode,Clothing,5,9886,UPI,Cancelled,49430
+O0277,C0144,2026-10-04,49.0,Female,Salem,Grocery,3,8538,UPI,Completed,25614
+O0278,C0090,2026-10-05,64.0,Male,Salem,Electronics,2,3811,Cash,Cancelled,7622
+O0279,C0112,2026-10-06,28.0,Male,Erode,Electronics,2,8104,Net Banking,Completed,16208
+O0280,C0060,2026-10-07,38.0,Female,Chennai,Grocery,1,9852,Card,Completed,9852
+O0281,C0113,2026-10-08,43.0,Female,Chennai,Electronics,2,6374,Net Banking,Returned,12748
+O0282,C0002,2026-10-09,42.0,Female,Madurai,Furniture,3,3964,Card,Cancelled,11892
+O0283,C0129,2026-10-10,39.0,Female,Trichy,Furniture,2,7933,UPI,Completed,15866
+O0284,C0048,2026-10-11,44.0,Male,Coimbatore,Furniture,5,6888,Net Banking,Cancelled,34440
+O0285,C0140,2026-10-12,30.0,Male,Chennai,Furniture,1,326,Card,Cancelled,326
+O0286,C0197,2026-10-13,50.0,Male,Salem,Electronics,3,364,Cash,Returned,1092
+O0287,C0037,2026-10-14,51.0,Male,Madurai,Grocery,1,9687,UPI,Cancelled,9687
+O0288,C0160,2026-10-15,58.0,Female,Coimbatore,Grocery,3,745,Cash,Returned,2235
+O0289,C0009,2026-10-16,52.0,Male,Madurai,Grocery,5,7644,UPI,Completed,38220
+O0290,C0099,2026-10-17,18.0,Male,Coimbatore,Grocery,1,5669,Net Banking,Cancelled,5669
+O0291,C0147,2026-10-18,38.0,Female,Coimbatore,Clothing,4,3090,Net Banking,Completed,12360
+O0292,C0048,2026-10-19,23.0,Male,Erode,Grocery,3,2604,UPI,Cancelled,7812
+O0293,C0131,2026-10-20,45.0,Male,Chennai,Clothing,4,9446,UPI,Completed,37784
+O0294,C0148,2026-10-21,34.0,Male,Madurai,Clothing,1,687,UPI,Cancelled,687
+O0295,C0152,2026-10-22,22.0,Male,Madurai,Furniture,4,9277,Net Banking,Cancelled,37108
+O0296,C0054,2026-10-23,48.0,Male,Erode,Clothing,4,4179,Card,Cancelled,16716
+O0297,C0120,2026-10-24,22.0,Male,Salem,Electronics,1,3448,Cash,Cancelled,3448
+O0298,C0161,2026-10-25,55.0,Female,Salem,Clothing,5,6399,Cash,Cancelled,31995
+O0299,C0152,2026-10-26,20.0,Female,Chennai,Furniture,4,3931,Net Banking,Cancelled,15724
+O0300,C0116,2026-10-27,40.0,Male,Chennai,Clothing,4,9533,Cash,Cancelled,38132
+O0301,C0075,2026-10-28,54.0,Male,Trichy,Electronics,5,8481,UPI,Cancelled,42405
+O0302,C0113,2026-10-29,54.0,Female,Erode,Electronics,4,9272,Card,Cancelled,37088
+O0303,C0200,2026-10-30,27.0,Male,Salem,Electronics,4,9990,Cash,Completed,39960
+O0304,C0164,2026-10-31,27.0,Male,Coimbatore,Furniture,4,1815,Card,Returned,7260
+O0305,C0166,2026-11-01,36.0,Male,Madurai,Furniture,2,6550,UPI,Cancelled,13100
+O0306,C0104,2026-11-02,34.0,Female,Chennai,Grocery,5,5533,Cash,Returned,27665
+O0307,C0084,2026-11-03,38.0,Male,Madurai,Furniture,4,1198,Net Banking,Cancelled,4792
+O0308,C0112,2026-11-04,31.0,Female,Madurai,Electronics,5,7196,Card,Cancelled,35980
+O0309,C0099,2026-11-05,26.0,Male,Trichy,Electronics,3,2426,UPI,Completed,7278
+O0310,C0153,2026-11-06,63.0,Female,Salem,Furniture,3,9187,Card,Completed,27561
+O0311,C0093,2026-11-07,18.0,Female,Chennai,Clothing,4,6516,Cash,Returned,26064
+O0312,C0146,2026-11-08,62.0,Male,Madurai,Furniture,5,7080,Cash,Completed,35400
+O0313,C0128,2026-11-09,30.0,Female,Chennai,Furniture,5,6863,Net Banking,Completed,34315
+O0314,C0110,2026-11-10,21.0,Male,Coimbatore,Electronics,5,1774,UPI,Returned,8870
+O0315,C0082,2026-11-11,18.0,Female,Trichy,Grocery,2,8050,UPI,Completed,16100
+O0316,C0194,2026-11-12,57.0,Male,Coimbatore,Electronics,3,9222,Net Banking,Cancelled,27666
+O0317,C0054,2026-11-13,49.0,Male,Chennai,Grocery,5,9015,Net Banking,Returned,45075
+O0318,C0163,2026-11-14,51.0,Female,Chennai,Electronics,5,6149,UPI,Returned,30745
+O0319,C0189,2026-11-15,45.0,Male,Salem,Furniture,2,1189,Card,Cancelled,2378
+O0320,C0169,2026-11-16,48.0,Male,Madurai,Electronics,2,4678,Card,Completed,9356
+O0321,C0161,2026-11-17,25.0,Female,Madurai,Electronics,5,9227,Net Banking,Returned,46135
+O0322,C0068,2026-11-18,56.0,Male,Coimbatore,Electronics,1,255,Card,Returned,255
+O0323,C0033,2026-11-19,43.0,Male,Trichy,Furniture,5,9362,UPI,Cancelled,46810
+O0324,C0142,2026-11-20,51.0,Female,Erode,Furniture,5,2058,Cash,Cancelled,10290
+O0325,C0021,2026-11-21,20.0,Female,Madurai,Furniture,2,6444,Cash,Completed,12888
+O0326,C0048,2026-11-22,29.0,Male,Salem,Furniture,2,5879,Card,Returned,11758
+O0327,C0148,2026-11-23,18.0,Male,Coimbatore,Grocery,5,6244,Net Banking,Completed,31220
+O0328,C0128,2026-11-24,61.0,Female,Coimbatore,Grocery,5,5163,Net Banking,Completed,25815
+O0329,C0136,2026-11-25,22.0,Female,Erode,Clothing,5,3930,Net Banking,Cancelled,19650
+O0330,C0135,2026-11-26,47.0,Male,Salem,Furniture,2,9146,Net Banking,Returned,18292
+O0331,C0195,2026-11-27,47.0,Female,Trichy,Grocery,5,8931,Net Banking,Returned,44655
+O0332,C0145,2026-11-28,34.0,Male,Salem,Electronics,5,9894,Card,Returned,49470
+O0333,C0128,2026-11-29,64.0,Male,Trichy,Furniture,4,6759,Cash,Cancelled,27036
+O0334,C0033,2026-11-30,40.0,Male,Salem,Clothing,1,541,Cash,Cancelled,541
+O0335,C0176,2026-12-01,32.0,Male,Salem,Clothing,3,6140,Card,Cancelled,18420
+O0336,C0187,2026-12-02,54.0,Male,Chennai,Clothing,1,6025,Net Banking,Cancelled,6025
+O0337,C0115,2026-12-03,38.0,Female,Coimbatore,Electronics,4,7458,Card,Cancelled,29832
+O0338,C0119,2026-12-04,31.0,Female,Salem,Grocery,3,4728,Cash,Returned,14184
+O0339,C0022,2026-12-05,19.0,Female,Erode,Electronics,5,6470,UPI,Completed,32350
+O0340,C0158,2026-12-06,28.0,Female,Salem,Furniture,4,9628,Card,Returned,38512
+O0341,C0038,2026-12-07,56.0,Male,Madurai,Clothing,5,1048,Net Banking,Completed,5240
+O0342,C0109,2026-12-08,55.0,Male,Coimbatore,Electronics,2,8279,Cash,Cancelled,16558
+O0343,C0051,2026-12-09,51.0,Male,Madurai,Electronics,4,6215,Cash,Completed,24860
+O0344,C0182,2026-12-10,55.0,Male,Coimbatore,Grocery,2,559,Cash,Returned,1118
+O0345,C0008,2026-12-11,51.0,Female,Madurai,Grocery,4,7668,Cash,Returned,30672
+O0346,C0027,2026-12-12,35.0,Male,Salem,Clothing,4,4746,Net Banking,Completed,18984
+O0347,C0027,2026-12-13,47.0,Male,Salem,Electronics,2,492,UPI,Cancelled,984
+O0348,C0021,2026-12-14,32.0,Female,Chennai,Electronics,3,1887,Cash,Cancelled,5661
+O0349,C0030,2026-12-15,44.0,Female,Erode,Grocery,1,7474,Card,Returned,7474
+O0350,C0097,2026-12-16,51.0,Female,Madurai,Electronics,5,1238,UPI,Completed,6190
+O0351,C0028,2026-12-17,55.0,Female,Trichy,Electronics,4,4841,Cash,Cancelled,19364
+O0352,C0111,2026-12-18,50.0,Male,Chennai,Electronics,5,7518,UPI,Cancelled,37590
+O0353,C0192,2026-12-19,41.0,Male,Madurai,Grocery,2,6462,Card,Returned,12924
+O0354,C0197,2026-12-20,32.0,Female,Madurai,Clothing,5,2554,Cash,Cancelled,12770
+O0355,C0061,2026-12-21,47.0,Male,Chennai,Furniture,2,9758,Card,Completed,19516
+O0356,C0048,2026-12-22,59.0,Male,Salem,Clothing,5,3774,Net Banking,Returned,18870
+O0357,C0147,2026-12-23,34.0,Male,Madurai,Furniture,1,1477,Cash,Returned,1477
+O0358,C0004,2026-12-24,22.0,Female,Salem,Electronics,1,6801,Cash,Completed,6801
+O0359,C0035,2026-12-25,46.0,Male,Chennai,Clothing,1,2697,Cash,Returned,2697
+O0360,C0192,2026-12-26,21.0,Female,Salem,Furniture,1,241,Cash,Cancelled,241
+O0361,C0049,2026-12-27,27.0,Male,Coimbatore,Grocery,1,2759,Net Banking,Cancelled,2759
+O0362,C0017,2026-12-28,34.0,Male,Trichy,Grocery,1,4696,Cash,Completed,4696
+O0363,C0172,2026-12-29,27.0,Male,Madurai,Clothing,2,9131,UPI,Cancelled,18262
+O0364,C0158,2026-12-30,34.0,Female,Erode,Clothing,4,5761,Cash,Completed,23044
+O0365,C0046,2026-12-31,37.0,Male,Trichy,Electronics,5,6242,Net Banking,Completed,31210
+O0366,C0117,2027-01-01,41.0,Female,Salem,Clothing,1,5726,Cash,Cancelled,5726
+O0367,C0006,2027-01-02,22.0,Female,Madurai,Electronics,2,8887,UPI,Completed,17774
+O0368,C0099,2027-01-03,51.0,Female,Salem,Electronics,2,8572,Net Banking,Cancelled,17144
+O0369,C0124,2027-01-04,23.0,Male,Coimbatore,Grocery,2,523,Net Banking,Returned,1046
+O0370,C0037,2027-01-05,19.0,Male,Chennai,Grocery,4,7099,UPI,Returned,28396
+O0371,C0024,2027-01-06,30.0,Male,Madurai,Furniture,5,4349,UPI,Completed,21745
+O0372,C0093,2027-01-07,60.0,Male,Coimbatore,Grocery,4,1850,UPI,Cancelled,7400
+O0373,C0046,2027-01-08,60.0,Female,Coimbatore,Grocery,3,4857,UPI,Cancelled,14571
+O0374,C0181,2027-01-09,28.0,Female,Madurai,Clothing,2,2067,UPI,Returned,4134
+O0375,C0095,2027-01-10,64.0,Female,Salem,Grocery,3,4188,Net Banking,Returned,12564
+O0376,C0099,2027-01-11,40.0,Male,Erode,Furniture,1,4278,Net Banking,Cancelled,4278
+O0377,C0188,2027-01-12,33.0,Female,Coimbatore,Clothing,1,7889,Cash,Completed,7889
+O0378,C0116,2027-01-13,48.0,Male,Trichy,Furniture,4,3046,Cash,Returned,12184
+O0379,C0191,2027-01-14,28.0,Female,Coimbatore,Grocery,5,9741,Card,Completed,48705
+O0380,C0160,2027-01-15,33.0,Male,Erode,Furniture,3,5494,Cash,Completed,16482
+O0381,C0161,2027-01-16,25.0,Male,Salem,Clothing,5,7980,Cash,Returned,39900
+O0382,C0067,2027-01-17,21.0,Female,Salem,Electronics,4,5175,UPI,Completed,20700
+O0383,C0128,2027-01-18,57.0,Female,Trichy,Furniture,1,7330,UPI,Completed,7330
+O0384,C0018,2027-01-19,21.0,Female,Coimbatore,Furniture,5,1631,Cash,Cancelled,8155
+O0385,C0025,2027-01-20,42.0,Female,Salem,Clothing,5,3090,Card,Completed,15450
+O0386,C0054,2027-01-21,20.0,Male,Erode,Clothing,1,7255,UPI,Cancelled,7255
+O0387,C0058,2027-01-22,49.0,Female,Madurai,Furniture,3,4593,Cash,Returned,13779
+O0388,C0067,2027-01-23,20.0,Female,Chennai,Grocery,1,9435,Cash,Returned,9435
+O0389,C0104,2027-01-24,44.0,Female,Chennai,Furniture,5,1033,Net Banking,Cancelled,5165
+O0390,C0174,2027-01-25,46.0,Male,Chennai,Clothing,3,1560,Card,Returned,4680
+O0391,C0024,2027-01-26,49.0,Male,Coimbatore,Electronics,3,2823,Net Banking,Completed,8469
+O0392,C0114,2027-01-27,36.0,Female,Trichy,Electronics,1,385,Card,Completed,385
+O0393,C0032,2027-01-28,38.0,Male,Salem,Grocery,5,364,UPI,Completed,1820
+O0394,C0175,2027-01-29,22.0,Female,Madurai,Furniture,4,6916,Card,Returned,27664
+O0395,C0086,2027-01-30,35.0,Male,Erode,Electronics,5,1862,Cash,Completed,9310
+O0396,C0151,2027-01-31,45.0,Male,Madurai,Furniture,2,140,Cash,Returned,280
+O0397,C0194,2027-02-01,59.0,Male,Erode,Clothing,4,5927,Card,Completed,23708
+O0398,C0127,2027-02-02,39.0,Male,Coimbatore,Electronics,3,8359,Card,Cancelled,25077
+O0399,C0155,2027-02-03,38.0,Female,Chennai,Grocery,4,1087,Card,Returned,4348
+O0400,C0130,2027-02-04,23.0,Female,Coimbatore,Clothing,3,7904,Net Banking,Returned,23712
+O0401,C0017,2027-02-05,18.0,Female,Trichy,Grocery,3,7889,Card,Completed,23667
+O0402,C0104,2027-02-06,22.0,Male,Trichy,Clothing,4,5817,UPI,Returned,23268
+O0403,C0161,2027-02-07,58.0,Female,Erode,Electronics,3,3298,Net Banking,Returned,9894
+O0404,C0137,2027-02-08,29.0,Female,Salem,Grocery,3,5474,Net Banking,Cancelled,16422
+O0405,C0043,2027-02-09,43.0,Female,Salem,Grocery,2,4890,Card,Cancelled,9780
+O0406,C0176,2027-02-10,63.0,Male,Erode,Clothing,5,7283,UPI,Completed,36415
+O0407,C0039,2027-02-11,51.0,Male,Trichy,Grocery,5,2624,Net Banking,Cancelled,13120
+O0408,C0170,2027-02-12,31.0,Male,Trichy,Clothing,2,9377,Cash,Completed,18754
+O0409,C0026,2027-02-13,43.0,Female,Trichy,Clothing,4,2579,Net Banking,Completed,10316
+O0410,C0099,2027-02-14,62.0,Female,Coimbatore,Clothing,1,9985,Card,Completed,9985
+O0411,C0050,2027-02-15,44.0,Female,Trichy,Clothing,1,5254,UPI,Returned,5254
+O0412,C0153,2027-02-16,26.0,Male,Madurai,Electronics,1,878,Card,Cancelled,878
+O0413,C0152,2027-02-17,43.0,Male,Chennai,Clothing,2,9877,Cash,Completed,19754
+O0414,C0013,2027-02-18,64.0,Female,Trichy,Furniture,2,1592,Cash,Cancelled,3184
+O0415,C0060,2027-02-19,39.0,Male,Erode,Grocery,3,760,Cash,Completed,2280
+O0416,C0135,2027-02-20,64.0,Male,Chennai,Furniture,1,1448,Card,Cancelled,1448
+O0417,C0057,2027-02-21,47.0,Male,Coimbatore,Electronics,4,9591,Net Banking,Cancelled,38364
+O0418,C0036,2027-02-22,60.0,Male,Erode,Furniture,4,7951,Card,Completed,31804
+O0419,C0173,2027-02-23,34.0,Female,Chennai,Grocery,1,7256,UPI,Returned,7256
+O0420,C0020,2027-02-24,43.0,Male,Erode,Furniture,1,2144,Net Banking,Cancelled,2144
+O0421,C0065,2027-02-25,53.0,Male,Coimbatore,Electronics,1,7468,Cash,Returned,7468
+O0422,C0008,2027-02-26,18.0,Male,Madurai,Clothing,2,3616,Card,Returned,7232
+O0423,C0144,2027-02-27,25.0,Male,Coimbatore,Furniture,2,9350,Cash,Completed,18700
+O0424,C0142,2027-02-28,52.0,Female,Coimbatore,Electronics,2,9268,Cash,Completed,18536
+O0425,C0115,2027-03-01,32.0,Female,Erode,Electronics,5,4677,UPI,Completed,23385
+O0426,C0143,2027-03-02,64.0,Male,Salem,Grocery,4,827,Net Banking,Cancelled,3308
+O0427,C0092,2027-03-03,39.0,Male,Trichy,Grocery,4,7568,UPI,Completed,30272
+O0428,C0098,2027-03-04,31.0,Male,Trichy,Furniture,3,442,UPI,Completed,1326
+O0429,C0066,2027-03-05,43.0,Male,Madurai,Clothing,2,1547,UPI,Cancelled,3094
+O0430,C0032,2027-03-06,45.0,Male,Madurai,Electronics,5,6681,Cash,Cancelled,33405
+O0431,C0191,2027-03-07,40.0,Male,Trichy,Furniture,5,6417,UPI,Completed,32085
+O0432,C0086,2027-03-08,31.0,Female,Salem,Electronics,4,626,UPI,Completed,2504
+O0433,C0051,2027-03-09,41.0,Male,Trichy,Electronics,2,6848,Net Banking,Completed,13696
+O0434,C0153,2027-03-10,19.0,Female,Salem,Clothing,3,505,Net Banking,Completed,1515
+O0435,C0186,2027-03-11,62.0,Female,Madurai,Clothing,2,8086,UPI,Returned,16172
+O0436,C0063,2027-03-12,43.0,Male,Chennai,Furniture,1,9865,Net Banking,Returned,9865
+O0437,C0190,2027-03-13,31.0,Female,Erode,Clothing,2,3840,Net Banking,Completed,7680
+O0438,C0125,2027-03-14,24.0,Female,Madurai,Clothing,1,1946,UPI,Returned,1946
+O0439,C0150,2027-03-15,20.0,Female,Madurai,Furniture,1,1578,Cash,Cancelled,1578
+O0440,C0058,2027-03-16,64.0,Female,Coimbatore,Clothing,3,871,UPI,Returned,2613
+O0441,C0058,2027-03-17,40.0,Female,Coimbatore,Grocery,4,5625,Net Banking,Returned,22500
+O0442,C0086,2027-03-18,63.0,Female,Coimbatore,Electronics,2,8870,Cash,Completed,17740
+O0443,C0049,2027-03-19,60.0,Male,Erode,Electronics,1,293,Card,Returned,293
+O0444,C0180,2027-03-20,64.0,Female,Coimbatore,Electronics,2,2107,Cash,Returned,4214
+O0445,C0170,2027-03-21,62.0,Female,Salem,Electronics,4,1285,Net Banking,Returned,5140
+O0446,C0070,2027-03-22,35.0,Female,Trichy,Furniture,4,2494,Cash,Returned,9976
+O0447,C0015,2027-03-23,55.0,Male,Chennai,Electronics,5,9402,UPI,Cancelled,47010
+O0448,C0054,2027-03-24,52.0,Female,Madurai,Electronics,4,4105,Card,Completed,16420
+O0449,C0188,2027-03-25,32.0,Male,Salem,Electronics,3,7529,Card,Completed,22587
+O0450,C0101,2027-03-26,42.0,Female,Chennai,Electronics,1,2361,Card,Cancelled,2361
+O0451,C0008,2027-03-27,54.0,Male,Salem,Grocery,5,3836,Net Banking,Returned,19180
+O0452,C0053,2027-03-28,45.0,Male,Salem,Electronics,3,6816,Net Banking,Cancelled,20448
+O0453,C0060,2027-03-29,27.0,Female,Madurai,Grocery,2,4975,Card,Returned,9950
+O0454,C0108,2027-03-30,56.0,Female,Trichy,Furniture,1,9021,Cash,Cancelled,9021
+O0455,C0005,2027-03-31,34.0,Male,Coimbatore,Clothing,4,4478,Card,Completed,17912
+O0456,C0103,2027-04-01,56.0,Female,Erode,Electronics,1,7915,Cash,Completed,7915
+O0457,C0196,2027-04-02,39.0,Male,Trichy,Clothing,2,3551,Cash,Completed,7102
+O0458,C0006,2027-04-03,43.0,Male,Erode,Clothing,5,7716,Net Banking,Returned,38580
+O0459,C0109,2027-04-04,61.0,Male,Madurai,Furniture,5,9936,Cash,Returned,49680
+O0460,C0116,2027-04-05,42.0,Male,Madurai,Clothing,5,2900,Card,Cancelled,14500
+O0461,C0094,2027-04-06,34.0,Male,Madurai,Grocery,4,8433,Net Banking,Cancelled,33732
+O0462,C0047,2027-04-07,30.0,Female,Chennai,Clothing,3,5510,UPI,Completed,16530
+O0463,C0099,2027-04-08,37.0,Male,Erode,Clothing,3,1555,UPI,Returned,4665
+O0464,C0055,2027-04-09,42.0,Male,Trichy,Clothing,1,6992,Net Banking,Cancelled,6992
+O0465,C0168,2027-04-10,21.0,Female,Trichy,Electronics,4,5908,Card,Returned,23632
+O0466,C0052,2027-04-11,27.0,Male,Salem,Electronics,5,6896,UPI,Returned,34480
+O0467,C0144,2027-04-12,20.0,Female,Salem,Grocery,5,4896,UPI,Completed,24480
+O0468,C0013,2027-04-13,58.0,Female,Salem,Grocery,2,5193,Cash,Completed,10386
+O0469,C0114,2027-04-14,62.0,Female,Madurai,Electronics,2,1425,Cash,Returned,2850
+O0470,C0124,2027-04-15,35.0,Male,Trichy,Grocery,5,5076,Card,Returned,25380
+O0471,C0106,2027-04-16,64.0,Male,Erode,Electronics,5,9505,Net Banking,Returned,47525
+O0472,C0158,2027-04-17,53.0,Male,Madurai,Furniture,4,1259,Card,Returned,5036
+O0473,C0147,2027-04-18,64.0,Female,Chennai,Clothing,3,4750,Net Banking,Completed,14250
+O0474,C0145,2027-04-19,39.0,Male,Salem,Clothing,2,5087,UPI,Cancelled,10174
+O0475,C0120,2027-04-20,51.0,Female,Madurai,Grocery,3,4797,Cash,Completed,14391
+O0476,C0063,2027-04-21,64.0,Male,Madurai,Electronics,4,440,Card,Cancelled,1760
+O0477,C0019,2027-04-22,25.0,Female,Chennai,Electronics,5,3928,Card,Returned,19640
+O0478,C0092,2027-04-23,57.0,Male,Coimbatore,Grocery,3,2068,Net Banking,Cancelled,6204
+O0479,C0058,2027-04-24,61.0,Male,Trichy,Electronics,5,803,Net Banking,Completed,4015
+O0480,C0183,2027-04-25,36.0,Male,Erode,Furniture,5,5582,Card,Completed,27910
+O0481,C0090,2027-04-26,59.0,Female,Coimbatore,Clothing,1,6476,Net Banking,Returned,6476
+O0482,C0117,2027-04-27,58.0,Female,Salem,Grocery,3,1900,Card,Completed,5700
+O0483,C0062,2027-04-28,54.0,Male,Madurai,Grocery,3,5563,Card,Returned,16689
+O0484,C0023,2027-04-29,23.0,Male,Chennai,Electronics,5,5012,Card,Completed,25060
+O0485,C0127,2027-04-30,43.0,Female,Chennai,Grocery,4,4748,UPI,Completed,18992
+O0486,C0137,2027-05-01,51.0,Female,Trichy,Furniture,1,955,Net Banking,Returned,955
+O0487,C0140,2027-05-02,62.0,Female,Coimbatore,Electronics,5,2966,Cash,Cancelled,14830
+O0488,C0129,2027-05-03,23.0,Male,Trichy,Electronics,2,282,Cash,Completed,564
+O0489,C0058,2027-05-04,54.0,Female,Madurai,Electronics,2,3212,Net Banking,Cancelled,6424
+O0490,C0122,2027-05-05,50.0,Male,Trichy,Electronics,1,5770,Card,Completed,5770
+O0491,C0001,2027-05-06,39.0,Female,Erode,Furniture,4,4592,Cash,Completed,18368
+O0492,C0034,2027-05-07,38.0,Male,Chennai,Electronics,5,5923,Cash,Completed,29615
+O0493,C0096,2027-05-08,23.0,Female,Chennai,Grocery,3,1617,Net Banking,Completed,4851
+O0494,C0126,2027-05-09,23.0,Female,Salem,Furniture,1,5102,Cash,Cancelled,5102
+O0495,C0118,2027-05-10,21.0,Female,Salem,Clothing,4,1456,Card,Cancelled,5824
+O0496,C0048,2027-05-11,47.0,Female,Madurai,Clothing,3,3729,Net Banking,Completed,11187
+O0497,C0089,2027-05-12,28.0,Female,Erode,Grocery,2,3728,Card,Completed,7456
+O0498,C0117,2027-05-13,47.0,Male,Coimbatore,Grocery,2,8310,Cash,Cancelled,16620
+O0499,C0129,2027-05-14,48.0,Female,Trichy,Furniture,3,6232,Cash,Returned,18696
+O0500,C0016,2027-05-15,41.0,Female,Madurai,Clothing,1,9424,Card,Returned,9424
